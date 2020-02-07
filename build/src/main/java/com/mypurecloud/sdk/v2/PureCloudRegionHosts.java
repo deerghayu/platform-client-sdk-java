@@ -5,7 +5,8 @@ public enum PureCloudRegionHosts {
     eu_west_1("https://api.mypurecloud.ie"),
     ap_southeast_2( "https://api.mypurecloud.com.au"),
     ap_northeast_1("https://api.mypurecloud.jp"),
-    eu_central_1("https://api.mypurecloud.de");
+    eu_central_1("https://api.mypurecloud.de"),
+    localhost("http://localhost:8080");
 
 
     private String apiHost;
