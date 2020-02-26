@@ -297,6 +297,12 @@
       <version>${testng-version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.opensaml/opensaml -->
    <dependency>
             <groupId>org.opensaml</groupId>
@@ -329,6 +335,7 @@
     <jodatime-version>2.9.3</jodatime-version>
     <maven-plugin-version>1.0.0</maven-plugin-version>
     <testng-version>6.14.3</testng-version>
+    <mockito.version>1.10.19</mockito.version>
     <apache-httpclient-version>4.5.2</apache-httpclient-version>
     <okhttpclient-version>2.7.0</okhttpclient-version>
     <ning-asynchttpclient-version>2.0.30</ning-asynchttpclient-version>
